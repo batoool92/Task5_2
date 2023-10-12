@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close*/ 
+} 
+
+
+/* .card-button {
+    top:65%!important;
+    left:0;
+    right: 0;
+    transition: height 1s,opacity 100ms;
+  
+} */
+.top-card-button:hover{
+    flex-grow: block;
+    opacity: 0.5;
+}
+.slider_button {
+    position: absolute;
+    top: 50%;;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: azure;
+    background-color: black;
+    transition: opacity 100ms;
+    z-index: 3;
+}
+
+#left_button{
+   left: 0rem;
+}
+#right_button{
+  right: 0.5rem;
+}
+.slider_button:hover,
+.slider_button:focus {
+    opacity: 0.5;
+}
+
+div .card{
+    width: 250px;
+    padding-top: 0.5rem;
+}
+
+div.cards div.card img{
+object-fit:fill;
+}
+
+.bg-img-accordion-section {
+    background-image:url(./../images/photo11.png);
+}
+
